@@ -81,3 +81,33 @@ else{
     console.log("Color is not matching")
 }
 
+// LOgical OPerator
+
+const name = "Javid";
+const age = 17;
+
+
+// AND - && check both value true
+
+if(age > 0 && age < 12){
+    console.log(`${name} is a child`)
+} else if (age >=13 && age <= 19){
+    console.log(`${name} is a teenager`)
+} else{
+    console.log(`${name} is a adult`);
+}
+
+
+// OR - || CHECK only one true or false
+
+if(age < 16 || age > 65){
+    console.log(`${name} can not run in race`);
+} else{
+    console.log(`${name} can register for the race`);
+}
+
+
+
+// Ternary operator
+
+console.log(100 === 101 ? "CORRECT" : "INCORRECT");
