@@ -18,11 +18,11 @@
 //     console.log(i);
 // }
 
-const arr = ["Hello", 1, true, false, "Akash"];
+const arr = ["Hello", 1, true, false, "Akash", "test"];
 
 
 for(let i = 0; i < arr.length; i++){
-   console.log(arr[i]);
+   console.log(arr[i])
 }
 
 
