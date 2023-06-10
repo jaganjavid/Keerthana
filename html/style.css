@@ -1,0 +1,25 @@
+/* h1{
+    color: blue;
+}
+
+.heading{
+    color: red;
+} */
+
+/* 
+#heading-1{
+    color: blue;
+}
+#heading-2{
+    color: green;
+} */
+
+.bg-image{
+    height: 550px;
+    /* background-color: blue; */
+    background: url("./img/img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
