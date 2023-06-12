@@ -27,7 +27,7 @@ const list = document.querySelectorAll("li"); //nodelist
 
 const firstLi = document.querySelector("li:first-child");
 
-const link = firstLi.children[0];
+const link = firstLi.children[0]; 
 
 let val;
 
