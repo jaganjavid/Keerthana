@@ -29,6 +29,27 @@ main{
     /* background-color: blue; */
 }
 
+.section-heading{
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.section-heading h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section-heading p{
+    max-width: 40%;
+    margin: 0px auto;
+}
+
+
+.clients,
+.solutions{
+    padding: 80px 0px;
+}
+
 /* Header Section Starts */
 
 header{
@@ -67,7 +88,6 @@ header{
     margin-bottom: 50px !important;
     max-width: 50%;
     margin: 0px auto;
-    margin-bottom: 25px;
 }
 
 .banner h1 span{
@@ -81,3 +101,78 @@ header{
     border-radius: 50px;
     display: inline-block;
 }
+
+
+/* Clents Section Start */
+
+.clients h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.clients-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-logos div{
+    width: 115px;
+}
+
+.clients-logos div img{
+    width: 100%;
+}
+/* Clents Section End */
+
+/* Solutions Start */
+.solutions{
+    background-color: #F0F0F0;
+}
+
+.solution-wrapper{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.solution-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.solution-box div{
+    width: 50%;
+}
+
+.solution-box>div:last-child{
+    text-align: right;
+}
+
+.solution-box span{
+    text-transform: uppercase;
+    color: #B33CDB;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.solution-box h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.solution-box p{
+    margin: 15px 0px 15px 0px;
+}
+
+.solution-box a{
+    color: gray;
+}
+
+.solution-wrapper>div:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.solution-wrapper>div:nth-child(2)>div:last-child{
+    text-align: left;
+}
+/* Solutions End */
