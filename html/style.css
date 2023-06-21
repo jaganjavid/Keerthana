@@ -40,13 +40,19 @@ main{
 }
 
 .section-heading p{
-    max-width: 40%;
+    max-width: 50%;
     margin: 0px auto;
+}
+
+.section-heading h2 span{
+    display: block;
 }
 
 
 .clients,
-.solutions{
+.solutions,
+.social-media,
+.happy-client{
     padding: 80px 0px;
 }
 
@@ -176,3 +182,75 @@ header{
     text-align: left;
 }
 /* Solutions End */
+
+/* Social Media Start */
+
+.social-media{
+    background-color: #231A36;
+    color: #ffffff;
+}
+
+.social-media .section-heading p{
+    max-width: 50%;
+}
+
+.sm-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sm-wrapper h2{
+    font-size: 40px;
+}
+
+.sm-wrapper span {
+    font-size: 14px;
+    color: #7B9292;
+}
+/* Social Media End */
+
+/* Happy Client Start  */
+.hc-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.hc-wrapper p{
+    /* width: %; */
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 60px;
+    color: #6D6D6D;
+}
+
+.hc-wrapper>div{
+    width: 50%;
+}
+
+.hc-wrapper>div:last-child{
+    text-align: right;
+}
+/* Happy Client End */
+
+/* Footer Start */
+footer{
+    padding: 25px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper ul{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-wrapper>div:last-child{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* Footer End */
