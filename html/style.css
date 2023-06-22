@@ -12,6 +12,7 @@ body{
 .container{
     max-width: 1140px;
     margin: 0px auto;
+    padding: 0px 15px;
 }
 
 ul{
@@ -119,6 +120,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .clients-logos div{
@@ -254,3 +256,52 @@ footer{
     gap: 30px;
 }
 /* Footer End */
+
+
+@media only screen and (max-width: 992px) {
+    .solution-box{
+        flex-direction: column !important;
+    }
+
+    .solution-box>div:first-child{
+        text-align: center !important;
+    }
+
+    .solution-box>div:last-child{
+        text-align: center !important;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .header-wrapper ul{
+        justify-content: center;
+    }
+
+    .banner-wrapper{
+        padding: 30px 0px;
+    }
+    .banner h1{
+      font-size: 40px;
+    }
+
+    .clients-logos{
+        gap: 35px;
+    }
+
+    .clients-logos>div{
+        width: 45%;
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .clients-logos>div img{
+       width: 100px;
+    }
+}
