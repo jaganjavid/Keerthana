@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: #ffffff;
+    background-color: #750DB5;
+}
+
+header ul li a{
+    color: #ffffff;
+}
+
+.banner-btn a:first-child{
+  background-color: #FFA92C;
+  padding: 10px 30px;
+  color: #ffffff;
+  border-radius: 5px;
+}
