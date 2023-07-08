@@ -204,6 +204,9 @@ header{
 /* App end */
 
 /* News Start */
+.news{
+    padding: 80px 0px;
+}
 .news-text>div:first-child{
     width: 30px;
     height: 2px;
@@ -221,6 +224,67 @@ header{
 }
 /* News end */
 
+/* footer Start */
+footer{
+    padding: 80px 0px;
+    background-color: #2B2B39;
+    color: #ffffff;
+}
+
+footer h5{
+    margin-bottom: 20px;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+footer h5{
+    font-weight: 300;
+}
+
+footer a{
+    color: #E7E7E7 !important;
+}
+
+.footer-email>div{
+    position: relative;
+}
+
+.footer-email input{
+  width: 100%;
+  color: #717179;
+  background: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 0px 10px 15px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.footer-email a{
+    width: 40%;
+    text-align: center;
+    background: #ffffff;
+    color: #000000 !important;
+    border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* footer End */
+
+
+/* Detaild Start */
+.details{
+    background-color: #20202D;
+    padding: 20px 0px;
+}
+/* Detaild End */
 
 /* static, Relative, absolute, fixed */
 
